@@ -1,4 +1,4 @@
-# Extract External Port Number from Lando
+# Extract Database External Port Number from Lando
 
 ## Steps
 - `git clone https://github.com/mattschaff/lando_db_port.git`
