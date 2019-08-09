@@ -1,0 +1,1 @@
+lando info --format json | node -e "process.stdin.resume();process.stdin.setEncoding('utf8');process.stdin.on('data',function(data){var obj=JSON.parse(data);Object.values(obj).map(item=>{if(item.service=='database'){console.log(item.external_connection.port)}})})"
